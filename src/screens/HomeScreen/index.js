@@ -3,8 +3,8 @@ import Link from '../../components/Link'
 import { theme } from '../../theme/theme';
 import { Image, Box, Text, Icon, Input, Button } from '../../theme/components';
 
-const LOGO_ALURA_URL = 'https://raw.githubusercontent.com/alura-cursos/01-nextjs-course/8e29bfac1f45405784a9cf5ab6a4f03b2c10d4d8/public/images/alura-logo.svg';
-const SIDE_IMAGE_URL = 'https://github.com/alura-cursos/01-nextjs-course/blob/aula2.5/public/images/alura-cases.png?raw=true'
+const LOGO_ALURA_URL = '/images/alura-logo.svg';
+const SIDE_IMAGE_URL = '/images/alura-cases.png'
 
 function SideImage() {
   return (
