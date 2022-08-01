@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Script from 'next/script';
 import GlobalStyle from '../src/theme/GlobalStyle'
 
 function MyApp({ Component, pageProps }) {
@@ -7,8 +8,8 @@ function MyApp({ Component, pageProps }) {
       <Head>
 
         {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4Y2B58E5VP"></script>
-        <script
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-4Y2B58E5VP"></Script>
+        <Script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -19,7 +20,6 @@ function MyApp({ Component, pageProps }) {
             `
           }}
         />
-        
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
